@@ -1,0 +1,189 @@
+#title{
+  background-color: #ff4c68;
+}
+
+.main-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color:white;
+}
+
+.container-fluid{
+  padding: 5% 15%;
+}
+body{
+
+}
+
+/* nav bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width: 890%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 260%;
+
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!moving to features section!!!!!!!!!!!!!!!!! */
+
+
+
+/* font awesome icons color change */
+.fa-bullseye, .fa-check-circle, .fa-heart{
+  color:#ef8172;
+  padding-bottom: 16px;
+
+}
+.fa-bullseye:hover{
+  color:#ff4c68;
+
+}
+.fa-check-circle:hover{
+    color:#ff4c68;
+}
+.fa-heart:hover{
+    color:#ff4c68;
+}
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.featurescentre{
+  margin: auto;
+  /* padding-top: 70px;
+  padding-bottom: 70px; */
+   text-align: center;
+}
+
+.heading_features{
+  font-size:1.5rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.subheading_features{
+  color:#8f8f8f;
+
+}
+
+
+/* !!!!!!!!!!!!!!!!testimonials!!!!!!!!! */
+
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  line-height: 5rem;
+
+
+}
+  .testimonial-text{
+    padding: 7% 15%;
+  }
+
+.testimonial-image{
+  border-radius:100%;
+  width: 10%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! CTA part!!!!!!!!!!!!!!!!!!!!!! */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+.doglife{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 1.9rem;
+  color:white;
+}
+
+.copyright{
+  padding: 1.5rem;
+  font-weight: lighter;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!!!!!!!! */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3.5rem
+}
+
+/* controlling responsiveness */
+
+
+@media (max-width: 1030px){
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+  width: 120%;
+}
+
+#title{
+  text-align: center;
+
+}
+
+.main-heading{
+  text-align: center;
+}
+
+.title-image{
+  padding-right: 3rem;
+}
+}
